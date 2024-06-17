@@ -19,12 +19,12 @@ Os jumpers (fios) e transformadores foram reaproveitados de outros projetos.
 | Qnt. usada | Componente | Valor |
 |--------------|------------|-------|
 | 04 | Diodo Retificador 1N 4007 (10 unid.) | 2,80 |
-| 01 | Capacitor 470μF63V | 3,46 |
+| 01 | Capacitor 470μF 63V | 3,46 |
 | 01 | Diodo Zener 13V 1/2W (10 unid.) | 7,20 |
 | 01 | Resistor 4K7 (50 unid.) | 4,00 |
-| 01 | Resistor 680 5% 1/4W (50 unid.) | 4,00 |
+| 01 | Resistor 680 (50 unid.) | 4,00 |
 | 01 | Transistor NPN (5 unid.) | 3,10 |   
 | 01 | Potenciômetro linear 10K | 4,50 |
-|**Total:** | | | **29,00** |
+|**Total:** | | **29,00** |
 
 
