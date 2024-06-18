@@ -17,7 +17,15 @@ Sua função é tornar a senóide em outra onda, retificando-a.
 A corrente alternada é então convertida em corrente contínua.
 Para funcionar, os diodos precisam de uma tensão mínima, que, neste modelo,
 é de 0.7V cada. Então, a tensão de entrada se torna:
-$$25,4-2.0,7 = 24V$$
+$$V_{2} = 25,4-2.0,7 = 24$$
+
+### Capacitor
+O capacitor atua como filtro, eliminando (ou minimizando) o ruído, chamado de ripple.
+Considerando um ripple de 10%, temos:
+$$R_{eq} = {V_{2} \over I} = {24 \over I} = 216\Omega$$
+Onde a corrente I foi obtida usando o simulador Falstad.</br>
+A capacitância será dada pela seguinte equação:
+$$C = {V_{2} \over ripple.f.R_{eq}.2} = {24 \over 2,4.120.216.2} = 192μF$$
 
 ## Componentes usados
 Os jumpers (fios) e transformadores foram reaproveitados de outros projetos.
@@ -32,6 +40,17 @@ Os jumpers (fios) e transformadores foram reaproveitados de outros projetos.
 | 01 | Potenciômetro linear 10K | 4,50 |
 |**Total:** | | **29,00** |
 
+## Circuito no Falstad
+![Falstad](https://github.com/renan823/fonte-ajustavel/blob/main/falstad.png)
+Circuito experimental feito no Falstad. Utilizado para os cálculos e prototipação.</br>
+
+## Placa no Eagle
+![Esquema](https://github.com/renan823/fonte-ajustavel/blob/main/esquematico.jpeg)
+Esquemático feito no Eagle.
+</br></br>
+![Placa](https://github.com/renan823/fonte-ajustavel/blob/main/placa.png)
+Modelo gerado pelo Eagle após criação dos caminhos/rotas de conexão.
+</br></br>
 
 
 
