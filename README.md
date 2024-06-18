@@ -6,13 +6,18 @@ Este projeto foi construído durante as aulas de eletrônica, e tem como objetiv
 
 ### Transformador
 O transformador é responsável por reduzir a voltagem recebida, tornando-a útil neste dispositivo. Um transformador obedece a seguinte equação:
-$$Ve.Ns=Vs.Ne$$
-A razão entre o número de espiras N1/N2 = 7.
+$$V_{e}.N_{s}=V_{s}.N_{e}$$
+A entrada da tomada é de 127V, e a saída do transformador é de aproximadamente 25V.
+Então, a razão entre as espiras é:
+$${N_{1} \over N_{2}}={V_{max} \over V_{1}}={126,8 \over 25,4}=5$$
 
 ### Ponte de diodos
 A ponte de diodos é composta por 4 diodos retificadores.
 Sua função é tornar a senóide em outra onda, retificando-a.
 A corrente alternada é então convertida em corrente contínua.
+Para funcionar, os diodos precisam de uma tensão mínima, que, neste modelo,
+é de 0.7V cada. Então, a tensão de entrada se torna:
+$$25,4-2.0,7 = 24V$$
 
 ## Componentes usados
 Os jumpers (fios) e transformadores foram reaproveitados de outros projetos.
@@ -26,5 +31,7 @@ Os jumpers (fios) e transformadores foram reaproveitados de outros projetos.
 | 01 | Transistor NPN (5 unid.) | 3,10 |   
 | 01 | Potenciômetro linear 10K | 4,50 |
 |**Total:** | | **29,00** |
+
+
 
 
