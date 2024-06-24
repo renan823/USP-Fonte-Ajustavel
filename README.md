@@ -53,7 +53,6 @@ Modelo gerado pelo Eagle após criação dos caminhos/rotas de conexão.
 </br></br>
 
 ## Vídeo explicativo
-![Youtube](https://youtu.be/DJt-_cFbtyc)
-
+[<img src="https://github.com/renan823/fonte-ajustavel/blob/main/thumbnail.png" width="100%">](https://youtu.be/DJt-_cFbtyc "Fonte de tensão ajustável")
 
 
