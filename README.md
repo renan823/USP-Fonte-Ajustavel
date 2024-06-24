@@ -52,5 +52,8 @@ Esquemático feito no Eagle.
 Modelo gerado pelo Eagle após criação dos caminhos/rotas de conexão.
 </br></br>
 
+## Vídeo explicativo
+![Youtube](https://youtu.be/DJt-_cFbtyc)
+
 
 
